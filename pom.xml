@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.neo4j.contrib</groupId>
-    <artifactId>neo4j-additional-analyzers-4.0</artifactId>
+    <artifactId>neo4j-additional-analyzers</artifactId>
     <version>0.1</version>
     <build>
         <plugins>
@@ -21,7 +21,7 @@
     </build>
 
     <properties>
-        <neo4j.version>4.0.4</neo4j.version>
+        <neo4j.version>4.4.10</neo4j.version>
     </properties>
 
     <dependencies>
