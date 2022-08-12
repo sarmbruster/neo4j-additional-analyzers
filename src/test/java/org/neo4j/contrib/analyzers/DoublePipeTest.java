@@ -38,7 +38,7 @@ public class DoublePipeTest {
     }
 
     @Test
-    public void checkSearchForTermContainingDash() {
+    public void checkWithDatabase() {
         GraphDatabaseService db = neo4j.defaultDatabaseService();
         db.executeTransactionally("CALL db.index.fulltext.createNodeIndex('myIndex', ['Article'], ['title'], {analyzer: '" + ANALYZER_NAME +"'})");
         db.executeTransactionally( "CREATE (:Article{title:'AA||BB'})");
